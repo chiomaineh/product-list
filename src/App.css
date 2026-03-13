@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-accent: hsl(14 86% 42%);
+}
+
+.background {
+
+  background-color: hsl(13, 31%, 94%)
+}
+
+.font-class {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.price {
+  color: hsl(14, 86%, 42%);
+}
+
+.cart {
+  border-color:hsl(7, 20%, 60%);
+  color: hsl(7, 20%, 60%);
+  
+
+}
+
+.empty {
+  color: hsl(12, 20%, 44%);
+}
+
+.confirm {
+  background-color: hsl(14, 86%, 42%);
+  color: white
+}
